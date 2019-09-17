@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043a3fa9-b8f8-4f6c-b758-424746cb9abc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Health/HealthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EventSubscriber/Response/ResponseSerializationSubscriber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +175,8 @@
       <updated>1568715679621</updated>
       <workItem from="1568715680713" duration="2765000" />
       <workItem from="1568721449803" duration="25000" />
-      <workItem from="1568721484145" duration="811000" />
+      <workItem from="1568721484145" duration="2184000" />
+      <workItem from="1568723991442" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="aadded obj converter">
       <created>1568720167369</created>
@@ -189,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568721550425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added health controller to rest bundle">
+      <created>1568722450182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568722450182</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aadded obj converter" />
     <MESSAGE value="added services.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added services.yaml" />
+    <MESSAGE value="added health controller to rest bundle" />
+    <option name="LAST_COMMIT_MESSAGE" value="added health controller to rest bundle" />
   </component>
 </project>
