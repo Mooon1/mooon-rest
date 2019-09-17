@@ -2,6 +2,7 @@
 
 namespace Mooon\Rest\Controller\Health;
 
+use Mooon\Rest\Controller\AbstractRestController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -10,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
  *
  * Just a basic helper class to test availability of backend services.
  */
-class HealthController
+class HealthController extends AbstractRestController
 {
     /**
      * @Route("/mooon/rest/health", methods={"GET"})
