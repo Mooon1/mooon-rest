@@ -1,0 +1,13 @@
+<?php
+
+namespace Mooon\Rest\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+
+/**
+ * Class AbstractRestController
+ */
+abstract class AbstractRestController extends AbstractController
+{
+
+}

@@ -1,0 +1,46 @@
+{
+    "name": "mooon/rest",
+    "type": "symfony-bundle",
+    "license": "ISC",
+    "autoload":{
+      "psr-4":{
+        "Mooon\\Rest\\": "src/"
+      }
+    },
+    "autoload-dev":{
+      "psr-4":{
+        "Mooon\\Rest\\Tests\\": "tests/"
+      }
+    },
+    "require": {
+      "php": "^7.2",
+      "ext-json": "*",
+      "symfony/config": "^4.0",
+      "symfony/debug": "^4.0",
+      "symfony/dependency-injection": "^4.0",
+      "symfony/event-dispatcher": "^4.0",
+      "symfony/finder": "^4.0",
+      "symfony/framework-bundle": "^4.0",
+      "symfony/http-foundation": "^4.0",
+      "symfony/http-kernel": "^4.0",
+      "symfony/routing": "^4.0",
+      "symfony/security-core": "^4.0",
+      "symfony/validator": "^4.0",
+      "symfony/orm-pack": "*",
+      "symfony/translation": "*",
+      "symfony/serializer-pack": "^1.0",
+      "sensio/framework-extra-bundle": "^5.2",
+      "doctrine/annotations": "^1.6",
+      "jms/serializer": "^2.3",
+      "jms/serializer-bundle": "^3.2"
+    },
+    "require-dev": {
+      "liip/functional-test-bundle": "~2.0@alpha",
+      "phpunit/phpunit": "^7.1",
+      "symfony/phpunit-bridge": "^4.0",
+      "symfony/monolog-bundle": "^3.0",
+      "symfony/yaml": "^4.0",
+      "doctrine/doctrine-fixtures-bundle": "^3.0"
+    },
+    "minimum-stability": "stable"
+}
