@@ -1,0 +1,21 @@
+services:
+
+  Mooon\Rest\EventSubscriber\Response\ResponseSerializationSubscriber:
+    tags:
+      - { name: kernel.event_subscriber, event: kernel.view }
+    arguments:
+      ['@jms_serializer.serializer']
+
+#  Mooon\Rest\EventSubscriber\Request\RequestBodySubscriber:
+#    tags:
+#      - { name: kernel.event_subscriber, event: kernel.controller_arguments }
+#
+#  Mooon\Rest\EventSubscriber\Request\DtoValidationSubscriber:
+#    tags:
+#      - { name: kernel.event_subscriber, event: kernel.controller_arguments }
+#    arguments:
+#      ['@validator']
+
+  Mooon\Rest\EventSubscriber\Request\RequestMethodSubscriber:
+    tags:
+      - { name: kernel.event_subscriber, event: kernel.request }
