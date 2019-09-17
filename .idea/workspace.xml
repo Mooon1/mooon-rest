@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043a3fa9-b8f8-4f6c-b758-424746cb9abc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Resources/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Health/HealthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
@@ -146,6 +145,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\Development\Web\bundles\mooon-rest\src\Controller\HealthController" />
       <recent name="C:\Users\user\Documents\Development\Web\bundles\mooon-rest\src\EventSubscriber\Request" />
     </key>
   </component>
@@ -173,7 +173,7 @@
       <updated>1568715679621</updated>
       <workItem from="1568715680713" duration="2765000" />
       <workItem from="1568721449803" duration="25000" />
-      <workItem from="1568721484145" duration="31000" />
+      <workItem from="1568721484145" duration="811000" />
     </task>
     <task id="LOCAL-00001" summary="aadded obj converter">
       <created>1568720167369</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568720167369</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added services.yaml">
+      <created>1568721550425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568721550425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aadded obj converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="aadded obj converter" />
+    <MESSAGE value="added services.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="added services.yaml" />
   </component>
 </project>
